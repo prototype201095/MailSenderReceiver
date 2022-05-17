@@ -1,0 +1,23 @@
+{
+  "name": "mail-sender-receiver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.5"
+  },
+  "dependencies": {
+    "@mysql/xdevapi": "^8.0.27",
+    "big-integer": "^1.6.51",
+    "crypto-js": "^4.1.1",
+    "long": "^5.2.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.2",
+    "sequelize": "^6.12.5"
+  }
+}

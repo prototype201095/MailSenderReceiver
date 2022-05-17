@@ -1,0 +1,155 @@
+.no-padding {
+    padding: 0 !important;
+}
+
+::placeholder {
+    font-size: 15px;
+    color: #969696;
+}
+
+
+/*confirm modal customized css*/
+
+.jconfirm .jconfirm-box div.jconfirm-content-pane .jconfirm-content {
+    overflow: hidden !important;
+}
+
+input[type="text"] {
+    border: 1px solid #afafaf;
+}
+
+.login-container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    height: 700px;
+    margin-top: 25px;
+    box-shadow: 0px 12px 73px 11px #7b7b7b;
+}
+
+.login-container input {
+    width: 90%;
+    margin: 4px 11px 8px 16px;
+    border: 0;
+    padding: 2px 4px 4px;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+    color: #585858;
+}
+
+.login-container .email {
+    margin-top: 50px;
+}
+
+.login-container .email span {
+    color: #a5a5a5;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 17px;
+}
+
+.login-container .image-container img {
+    width: 100%;
+    height: 300px;
+    clip-path: polygon(0 0, 0 100%, 100% 250px, 100% 0, 100px 0px);
+}
+
+.log-in-button {
+    width: 94%;
+    margin: 10px;
+    padding: 14px;
+    border-radius: 2px;
+    background-color: #ea5d5d;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container .label {
+    height: 115px;
+    width: 115px;
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+    top: 240px;
+}
+
+.login-container .label img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.connected-user-list {
+    height: 100vh;
+    width: 85%;
+    background-color: #351d1d;
+    overflow-y: hidden;
+}
+
+.connected-user-list .welcome-banner {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.banner span {
+    margin: 10px;
+    color: white;
+    font-weight: 400;
+}
+
+.banner {
+    margin: 20px 0 15px 0;
+}
+
+.banner img {
+    color: white;
+    float: right;
+    margin: 5px 12px 5px 4px;
+    font-size: 17px;
+}
+
+.connected-user-list .welcome-banner .welcome-text {
+    font-size: 30px;
+    margin: 0;
+}
+
+.connected-user-list .welcome-banner .user-name {
+    margin: 0;
+}
+
+.body-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.body-image img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.new-user p {
+    text-align: center;
+    font-weight: 500;
+    color: #ea5d5d;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.user-signin-span {
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
